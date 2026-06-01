@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Somang Kim / Site Title"
+title                    : "Somang Kim / 김소망"
 title_separator          : "-"
 name                     : &name "Somang Kim"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Somang Kim's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://somanghope.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,22 +23,22 @@ repository               : "somanghope/somanghope.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "IMG_1737.jpeg"
   name             : "Somang Kim"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  pronouns         : "she/her"  
+  bio              : "Hope in Jesus"
   location         : "Earth"
   employer         : "The University of Texas at Austin"
   uri              : # URL
   email            : "somang.kim@my.utexas.edu 
 
   # Academic websites
-  academia         : # URL
+  academia         : "https://sites.utexas.edu/gisense/"
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=iRLfMKAAAAAJ&hl"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0002-7713-4464"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
