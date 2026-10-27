@@ -399,3 +399,41 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+
+/*
+   Education list with school logos (about page)
+   ========================================================================== */
+
+.education {
+  margin: 0 0 1em;
+  padding: 0;
+  list-style: none;
+}
+
+.education__school {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+  margin-bottom: 1.25em;
+}
+
+.education__logo {
+  flex: 0 0 64px;
+  width: 64px;
+  height: 64px;
+  padding: 4px;
+  border-radius: $border-radius;
+  background: #fff; /* keeps the logos legible in dark mode */
+  object-fit: contain;
+}
+
+.education__degrees {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin-bottom: 0.5em;
+  }
+}

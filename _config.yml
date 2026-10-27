@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "avatar.jpg"
   name             : "Somang Kim"
-  pronouns         : "she/her"  
+# pronouns         : "she/her"
   bio              : "Ph.D. student in Geography · GeoAI & Neuro-Geography"
   location         : "Austin, TX"
   employer         : "GISense Lab, UT Austin"

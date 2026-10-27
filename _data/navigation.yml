@@ -1,9 +1,30 @@
 # The order of the links in the header of the website.
 # To add a page to the menu, add a "title" and "url" pair below.
+# To group pages under a dropdown, give an item "children" instead of a "url".
 
 main:
-  - title: "Research"
-    url: /research/
+  - title: "about"
+    url: /
 
-  - title: "CV"
-    url: /files/CV_SomangKim.pdf
+  - title: "publications"
+    url: /publications/
+
+  - title: "experiences"
+    url: /experiences/
+
+  - title: "awards"
+    url: /awards/
+
+  - title: "teaching"
+    url: /teaching/
+
+  - title: "more"
+    children:
+      - title: "talks"
+        url: /talks/
+
+      - title: "cv"
+        url: /files/CV_SomangKim.pdf
+
+      - title: "news"
+        url: /news/
